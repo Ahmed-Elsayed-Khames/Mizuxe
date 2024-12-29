@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(90,186,183,0.6),rgba(90,186,183,0.6)), url(../images/mountains.jpg),no-repeat center ;
+    padding-top: 150px;
+}
+span{
+    font-size: 30px;
+}
+.navbar{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.form{
+    /* background-color: rgba(0, 0, 0, 0.884); */
+    height: 100px;
+}
+#contact{
+    min-height: 80px;
+    background-color: black;
+}
+
+
+#be{
+    min-height: 350px;
+}
+
+#totop{
+    position: fixed;
+    bottom: 30px;
+    display: none;
+    right: 30px;
+}
+#why{
+    min-height: 60vh;
+
+}
+#meets{
+    min-height: 90vh;
+    padding-top: 50px;
+}
+#meets img{
+    width: 50%;
+    margin:-50px auto 0;
+}
+#main-contact{
+    min-height: 100vh;
+    background-color: lightgray;
+    padding-top: 70px;
+}
